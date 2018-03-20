@@ -1,0 +1,132 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.4;
+	color: black;
+}
+
+#headshot {
+    width: 10%;
+    height: auto;
+    border: 5px solid #E84393;
+    border-radius: 50%; 
+}
+
+#kilanaschwarze {
+	font-family: 'Handlee', cursive;
+	font-size: 3em;
+	color: #724ae4;
+    margin-left: 10% 
+}
+
+nav ul {
+   list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    ;
+    
+}
+
+nav li {
+    font-family: 'Handlee', cursive;
+    background-color: white;
+    font-size: 1.5em;
+    text-align: center;
+    color: #4f72fb;
+    padding: 1%;
+    margin: 1%;
+    border: 5px solid #E84393;
+    border-radius: 20%;
+    
+}
+
+article {
+    font-size: 1em;
+    background-color: white;
+    padding: 1%;
+    margin: 1%;
+    border: 5px solid #E84393;
+}
+
+#imkilana {
+    font-family: 'Handlee', cursive;
+    font-size: 2em;
+	color: #724ae4;
+    text-align: center;
+}
+
+aside1 {
+    background-color: white;
+    font-size: 1em;
+    padding: 1%;
+    margin: 1%;
+    border: 5px solid #E84393;
+}
+
+#featuredwork {
+    font-family: 'Handlee', cursive;
+    font-size: 2em;
+	color: #724ae4;
+    text-align: center
+}
+
+#inlovingmemoryimage {
+    width: 100%;
+}
+
+aside2 {
+    background-color: white;
+    font-size: 1em;
+    padding: 1%;
+    margin: 1%;
+    border: 5px solid #E84393;
+}
+
+#figureoutthis {
+    font-family: 'Handlee', cursive;
+    font-size: 2em;
+	color: #724ae4;
+    text-align: center
+}
+
+#pizzapartyimage {
+    width: 100%;
+}
+
+a:link {
+	color: #4f72fb;
+}
+
+#container {
+    background-color: #efd0f7;
+    width: 80%;
+    padding: 1em; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#container {
+    border: 5px solid #E84393;=
+    margin-top: 15px;
+    margin-bottom: 15px;
+   
+}
+#container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "nav nav"
+        "article article" 
+        "aside1 aside2";
+}
+
+#container > nav {grid-area: nav;}
+#container > article {grid-area: article;}
+#container > aside1 {grid-area: aside1;}
+#container > aside2 {grid-area: aside2;}
+
+
